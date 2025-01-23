@@ -1,0 +1,342 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+/*Header*/
+
+header{
+    background-color: #112D4E;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 20px;
+}
+
+header img{
+    width: 10%;
+}
+
+header nav ul{
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+header nav ul li a{
+    text-decoration: none;
+    color: #F9F7F7;
+}
+
+#sobremi {
+    color: #F9F7F7;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+#habilidades {
+    color: #F9F7F7;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+#proyectos {
+    color: #F9F7F7;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+#contacto {
+    color: #F9F7F7;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+#faq {
+    color: #F9F7F7;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+
+/* estilos de footer */
+
+footer {
+    display: flex;
+    flex-direction: column; /* Elementos apilados verticalmente */
+    align-items: center;
+    justify-content: center;
+    background-color: #3F72AF; /* Fondo del footer */
+    color: #F9F7F7; /* Color del texto */
+    margin-top: auto;
+
+}
+
+footer .textoRedes {
+    text-align: center; /* Centrar texto */
+    margin-bottom: 10px; /* Espaciado debajo del texto */
+
+}
+
+footer .redesSociales {
+    display: flex; /* Flexbox para alinear íconos */
+    justify-content: center; /* Centrar horizontalmente */
+    align-items: center; /* Centrar verticalmente */
+    gap: 30px; /* Espacio entre íconos */
+    margin-top: 10px;
+}
+
+footer .redesSociales img {
+    width: 50px; /* Ajusta el tamaño de los íconos */
+    height: 50px; /* Hace que todos los íconos tengan el mismo tamaño */
+
+}
+
+footer .textoDerechosreservados {
+    text-align: center; /* Centrar texto */
+    margin-top: 15px; /* Espacio superior */
+    color: #F9F7F7; /* Color de texto más claro */
+}
+
+
+
+/* estilos de main Index*/
+
+.SobreMi{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.SobreMi .presentacion{
+    text-align: center;
+}
+
+.SobreMi .presentacion h1 span{
+    display: block;
+}
+.SobreMi .presentacion p span{
+    display: block;
+}
+
+.SobreMi .imgPresentacion{
+    display: flex;
+    justify-content: center;
+}
+
+.SobreMi .imgPresentacion img{
+    width: 70%;
+    border-radius: 50%;
+    margin-top: 20px;
+
+}
+
+/* estilos de main Proyectos*/
+.misProyectos {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin: 20px auto;
+    max-width: 800px;
+}
+
+.misProyectos h1 {
+    text-align: center;
+    color: #2a4d69;
+    margin-bottom: 20px;
+}
+
+.misProyectos h1 span {
+    border-bottom: 3px solid #4b86b4;
+    padding-bottom: 5px;
+}
+
+.misProyectos ul {
+    list-style: none;
+    padding: 0;
+}
+
+.misProyectos li {
+    margin-bottom: 20px;
+    background-color: #F9F7F7;
+    padding: 15px;
+    border-radius: 8px;
+
+}
+
+.misProyectos h2 {
+    font-size: 1.5rem;
+    color: #2a4d69;
+    margin-bottom: 10px;
+}
+
+
+.misProyectos p {
+    font-size: 1rem;
+    color: #555;
+}
+
+
+
+.aptitudes, .certificados {
+    max-width: 900px; /* Ancho máximo del contenido */
+    margin: 30px auto; /* Centrar contenido */
+    padding: 20px;
+    border-radius: 10px; /* Bordes redondeados */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra suave */
+}
+
+.aptitudes h2, .certificados h2 {
+    text-align: center;
+    color: #3F72AF; /* Azul medio */
+    margin-bottom: 20px;
+    border-bottom: 2px solid #3F72AF; /* Línea decorativa */
+    padding-bottom: 10px;
+}
+
+.aptitudes ul, .certificados ul {
+    list-style: none; /* Quitar puntos de lista */
+    padding: 0;
+    margin: 0;
+}
+
+.aptitudes ul li, .certificados ul li {
+    background-color: #F9F7F7; /* Fondo más claro */
+    margin-bottom: 15px; /* Espaciado entre elementos */
+    padding: 15px;
+    border-left: 5px solid #3F72AF; /* Línea de acento */
+    border-radius: 5px; /* Bordes redondeados */
+    color: #112D4E;
+    line-height: 1.6; /* Mejor legibilidad */
+}
+
+
+.certificados ul li a {
+    color: #3F72AF; /* Color del enlace */
+    text-decoration: none; /* Quitar subrayado */
+    font-weight: bold;
+}
+
+
+
+/*  */
+
+
+.contacto {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+}
+
+.contacto form {
+    background-color: #DBE2EF; /* Fondo del formulario */
+    border: 2px solid #3F72AF; /* Borde del formulario */
+    border-radius: 10px; /* Bordes redondeados */
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra suave */
+    width: 100%;
+    max-width: 400px; /* Ancho máximo */
+}
+
+.contacto ul {
+    list-style: none; /* Elimina los puntos de la lista */
+    padding: 0;
+    margin: 0;
+}
+
+.contacto li {
+    margin-bottom: 20px; /* Espaciado entre los campos */
+}
+
+.contacto label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #112D4E; /* Color del texto */
+}
+
+.contacto input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #3F72AF; /* Borde azul */
+    border-radius: 5px; /* Bordes redondeados */
+    background-color: #F9F7F7; /* Fondo claro */
+    color: #112D4E; /* Texto */
+    font-size: 1rem;
+}
+
+.contacto textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #3F72AF; /* Borde azul */
+    border-radius: 5px; /* Bordes redondeados */
+    background-color: #F9F7F7; /* Fondo claro */
+    color: #112D4E; /* Texto */
+    font-size: 1rem;
+}
+
+
+
+button {
+    display: inline-block;
+    background-color: #3F72AF; /* Botón azul */
+    color: #F9F7F7; /* Texto blanco */
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+
+/* 
+ */
+
+.FAQ {
+    max-width: 800px; /* Ancho máximo */
+    margin: 40px auto; /* Centrar contenido y agregar espaciado */
+    padding: 20px;
+
+
+    border-radius: 10px; /* Bordes redondeados */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra suave */
+}
+
+.FAQ h2 {
+    text-align: center;
+    color: #3F72AF; /* Azul medio */
+    margin-bottom: 20px;
+    border-bottom: 2px solid #3F72AF; /* Línea decorativa */
+    padding-bottom: 10px;
+}
+
+.FAQ h3 {
+    color: #112D4E; /* Azul oscuro */
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.FAQ p {
+    background-color: #F9F7F7; /* Fondo más claro */
+    padding: 10px;
+    border-left: 4px solid #3F72AF; /* Línea de acento */
+    border-radius: 5px; /* Bordes redondeados */
+    margin-bottom: 20px; /* Espaciado entre las preguntas */
+    color: #112D4E;
+    line-height: 1.6; /* Mejor legibilidad */
+}
+
+.FAQ p:hover {
+    background-color: #E1E9F1; /* Cambio de color suave al pasar el mouse */
+    transition: background-color 0.3s ease;
+}
