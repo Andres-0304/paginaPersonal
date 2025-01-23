@@ -20,6 +20,7 @@ header{
     padding-right: 20px;
 }
 
+
 header img{
     width: 10%;
 }
@@ -336,3 +337,8 @@ button {
     line-height: 1.6; /* Mejor legibilidad */
 }
 
+@media screen and (max-width: 768px) {
+    header img{
+        width: 30%;
+    }
+}
