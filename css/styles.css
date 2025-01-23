@@ -336,7 +336,3 @@ button {
     line-height: 1.6; /* Mejor legibilidad */
 }
 
-.FAQ p:hover {
-    background-color: #E1E9F1; /* Cambio de color suave al pasar el mouse */
-    transition: background-color 0.3s ease;
-}
