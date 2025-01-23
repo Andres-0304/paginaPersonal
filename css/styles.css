@@ -337,9 +337,21 @@ button {
     line-height: 1.6; /* Mejor legibilidad */
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
     header img{
         width: 30%;
+    }
+    .SobreMi{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+    
+    }
+}
+@media screen and (min-width: 768px) and (max-width: 1023px){
+    header img{
+        width: 40%;
     }
     .SobreMi{
         display: flex;
