@@ -1,0 +1,182 @@
+#faq, #contacto, #proyectos, #habilidades, #sobremi {
+  color: #F9F7F7;
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+header {
+  background-color: #112D4E;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding-right: 20px;
+}
+header img {
+  width: 10%;
+}
+header nav ul {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+header nav ul li a {
+  text-decoration: none;
+  color: #F9F7F7;
+}
+
+footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #3F72AF;
+  color: #F9F7F7;
+  margin-top: auto;
+}
+footer .textoRedes, footer .textoDerechosreservados {
+  text-align: center;
+  margin-bottom: 10px;
+}
+footer .redesSociales {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  margin-top: 10px;
+}
+footer .redesSociales img {
+  width: 50px;
+  height: 50px;
+}
+
+.SobreMi {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.SobreMi .presentacion {
+  text-align: center;
+}
+.SobreMi .presentacion h1 span, .SobreMi .presentacion p span {
+  display: block;
+}
+.SobreMi .imgPresentacion {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.SobreMi .imgPresentacion img {
+  width: 70%;
+  border-radius: 50%;
+  margin-top: 20px;
+}
+
+.misProyectos {
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  margin: 20px auto;
+  max-width: 800px;
+}
+.misProyectos h1 {
+  text-align: center;
+  color: #2a4d69;
+  margin-bottom: 20px;
+}
+.misProyectos h1 span {
+  border-bottom: 3px solid #4b86b4;
+  padding-bottom: 5px;
+}
+.misProyectos ul {
+  list-style: none;
+  padding: 0;
+}
+.misProyectos li {
+  background-color: #F9F7F7;
+  padding: 15px;
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+
+.aptitudes, .certificados {
+  max-width: 900px;
+  margin: 30px auto;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+.aptitudes h2, .certificados h2 {
+  text-align: center;
+  color: #3F72AF;
+  margin-bottom: 20px;
+  border-bottom: 2px solid #3F72AF;
+  padding-bottom: 10px;
+}
+.aptitudes ul, .certificados ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.aptitudes ul li, .certificados ul li {
+  background-color: #F9F7F7;
+  padding: 15px;
+  border-left: 5px solid #3F72AF;
+  border-radius: 5px;
+  color: #112D4E;
+  line-height: 1.6;
+}
+
+.certificados ul li a {
+  color: #3F72AF;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.contacto {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin: 20px;
+}
+.contacto form {
+  background-color: #DBE2EF;
+  border: 2px solid #3F72AF;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  width: 100%;
+  max-width: 400px;
+}
+
+.FAQ {
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/*# sourceMappingURL=styles.css.map */
